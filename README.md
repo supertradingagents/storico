@@ -1,7 +1,10 @@
 # Storico verificabile di STA · STA verifiable history
 
-Questo repository è lo storico pubblico delle schede di STA (www.supertradingagents.com). Nessuno lo può ritoccare
-senza che si veda, nemmeno noi.
+Questo repository è lo storico pubblico delle schede di **[STA: Super Trading Agents](https://www.supertradingagents.com/it/)**,
+il servizio di segnali di trading per cripto e azioni USA su OKX costruito da dieci agenti di intelligenza artificiale.
+Nessuno lo può ritoccare senza che si veda, nemmeno noi.
+
+Sito: https://www.supertradingagents.com · Come funziona: https://www.supertradingagents.com/it/come-funziona.html
 
 ## Cosa c'è
 
@@ -33,7 +36,8 @@ scheda, non il risultato di un conto.
 
 ---
 
-This repository is the public history of STA trade cards. `impronte/` holds the SHA-256 fingerprint of every card,
+This repository is the public history of the trade cards of **[STA: Super Trading Agents](https://www.supertradingagents.com/en/)**,
+AI trading signals for crypto and US stocks on OKX (website: https://www.supertradingagents.com). `impronte/` holds the SHA-256 fingerprint of every card,
 added hourly and anchored to Bitcoin every day with OpenTimestamps (`.ots`). `schede/` holds the card data, published
 48 hours after each card ends, losses included. The fingerprint is SHA-256 of
 `v1|<id>|<pair>|<LONG or SHORT>|<entry>|<stop>|<target>|<born, YYYY-MM-DDTHH:MM:SSZ>` (dot decimals, no trailing
